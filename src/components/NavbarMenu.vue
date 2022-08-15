@@ -1,0 +1,86 @@
+<template>
+<div id="app">
+  <b-navbar toggleable="lg" type="dark" variant="success" class="fixed-top mb-5">
+    <b-navbar-brand href="/">Go Store</b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <router-link class="b-nav-item" to="/">Home</router-link>
+        <router-link class="b-nav-item" to="/about">About</router-link>
+        <router-link class="b-nav-item" to="/FoodAll">Product All</router-link>
+      </b-navbar-nav>
+
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <router-link class="nav-link active" to="/keranjang"> Keranjang
+              <b-icon-bag></b-icon-bag>
+              <span class="badge badge-success ml-2">{{ updateKeranjang ? updateKeranjang.length : jumlah_pesanans.length }}</span>
+            </router-link>
+          </li>
+        </ul>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+  </div>
+</template>
+
+<script>
+import axios from "axios";
+
+export default {
+  name: 'NavbarMenu',
+  data() {
+    return {
+      jumlah_pesanans: []
+    }
+  },
+  props: ['updateKeranjang'],
+  methods: {
+    setJumlah(data) {
+      this.jumlah_pesanans = data
+    }
+  },
+  mounted() {
+    axios
+    .get("http://localhost:3000/keranjangs/")
+    .then((response) => this.setJumlah(response.data))
+    .catch((error) => console.log(error))
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 80px;
+  color: #f6f8fa;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: 1020;
+}
+nav {
+  padding: 30px;
+}
+
+nav a {
+  color: #cefadc;
+  font-weight: bold;
+  padding: 0 10px;
+}
+nav a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+nav a.router-link-exact-active {
+  color: #ffffff;
+  padding: 0 10px;
+}
+</style>
