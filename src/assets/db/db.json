@@ -76,5 +76,72 @@
     }
   ],
   "keranjangs": [],
-  "pesanans": []
+  "pesanans": [
+    {
+      "nama": "heri",
+      "noMeja": "3",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "2",
+          "keterangan": "jgsljafghsjdf",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Chees",
+            "harga": "2000",
+            "is_ready": "true",
+            "gambar": "logo.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": "3",
+          "keterangan": "pedas banget",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Biskuit",
+            "harga": "6000",
+            "is_ready": "true",
+            "gambar": "p1.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "heri",
+      "noMeja": "2",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "sdfdsfdg",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Chees",
+            "harga": "2000",
+            "is_ready": "true",
+            "gambar": "logo.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": "11",
+          "keterangan": "sgsgsd",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Wafer Tanggo",
+            "harga": "4000",
+            "is_ready": "true",
+            "gambar": "p2.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    }
+  ]
 }

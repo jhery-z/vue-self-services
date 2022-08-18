@@ -1,6 +1,6 @@
 <template>
     <div>
-        <NavbarMenu />
+        <NavbarMenu :updateKeranjang="keranjangs"/>
             <div class="container">
                 <h1 class="text-center mt-5">Products Detail </h1>
                 <div class="row mt-3">
@@ -74,29 +74,34 @@ export default {
             this.product = data;
         },
         pesanan() {
-            console.log(this.pesan);
+            // console.log(this.pesan);
         if(this.pesan.jumlah_pesanan) {
             this.pesan.products = this.product;
             axios
             .post("http://localhost:3000/keranjangs/", this.pesan)
             .then(() => {
-                this.$route.push({path: "/keranjang"})
+                this.$router.push({path: "/keranjang"})
                 this.$toast.success('Pesanan Berhasil di pesan', {
                     type: 'success', 
                     position: 'top-right', 
                     duration: 3000, 
-                    dismissable: true 
+                    dismissable: true, 
                 });
-                })
-            .catch((error) => console.log(error))
+            // undate data kerajang
+                axios
+                .get("http://localhost:3000/keranjangs")
+                .then((response) => this.setKeranjangs(response.data))
+                .catch((error) => console.log(error));
+            })
+            .catch((error) => console.log(error));
         }else {
-            this.$toast.error('Pesanan Gagal pesanan harus di isi', {
+            this.$toast.error('Jumlah Pesanan harus di isi', {
                     type: 'error', 
                     position: 'top-right', 
                     duration: 3000, 
-                    dismissable: true 
+                    dismissable: true, 
                 });
-        }
+            }
         },
     },
     mounted() {

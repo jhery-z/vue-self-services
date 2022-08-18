@@ -53,34 +53,3 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 80px;
-  color: #f6f8fa;
-}
-.fixed-top {
-  position: fixed;
-  top: 0;
-  z-index: 1020;
-}
-nav {
-  padding: 30px;
-}
-
-nav a {
-  color: #cefadc;
-  font-weight: bold;
-  padding: 0 10px;
-}
-nav a:hover {
-    color: #ffffff;
-    text-decoration: none;
-  }
-nav a.router-link-exact-active {
-  color: #ffffff;
-  padding: 0 10px;
-}
-</style>
