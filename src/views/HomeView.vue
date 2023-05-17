@@ -2,16 +2,23 @@
   <div class="home">
     <NavbarMenu/>
     <div class="container">
-      <div class="row mt-5">
-        <div class="col">
-          <h2>Best <strong>Seller</strong></h2>
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-6 col-12 p-3">
+          <div class="d-flex h-100">
+            <div class="justify-content-center align-self-center">
+              <h2><strong>Find The Best Way,</strong> <br><span style="color:green;">Delivery and Get Your Products</span></h2>
+              <p>Get in Touch for Best Price Products in Your Gadget Now</p>
+              <router-link to="/about" class="btn btn-success">Detail More</router-link>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <router-link to="/about" class="btn btn-success float-right">Lihat Semua</router-link>
+        <div class="col-lg-6 col-12 p-3">
+          <img src="../assets/img/logo.jpg" width="100%" height="auto"/>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3 col-6" v-for="product in products" :key="product.id">
+
+      <div class="row mt-5">
+        <div class="col" v-for="product in products" :key="product.id">
            <CardProduct :product="product"/>
         </div>
       </div>

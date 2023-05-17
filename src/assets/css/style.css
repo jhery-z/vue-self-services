@@ -15,7 +15,7 @@
   }
   
   nav a {
-    color: #cefadc;
+    color: #e9fca4;
     font-weight: bold;
     padding: 0 10px;
   }
@@ -27,3 +27,34 @@
     color: #ffffff;
     padding: 0 10px;
   }
+
+  .container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .cardid {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #dedede;
+    float: left;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin: 5px;
+    width: 240px;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 120px;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-position: center;
+    object-fit: cover;
+  }
+  

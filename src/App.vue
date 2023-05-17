@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>
     </nav> -->
     <router-view/>
+    <FooterSide />
   </div>
 </template>
 
@@ -29,3 +30,13 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
+<script>
+import FooterSide from "@/components/FooterSide.vue"
+
+export default {
+  components: {
+    FooterSide
+  }
+}
+</script>

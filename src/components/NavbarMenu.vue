@@ -1,5 +1,6 @@
 <template>
 <div id="app">
+  <div class="container">
   <b-navbar toggleable="lg" type="dark" variant="success" class="fixed-top mb-5">
     <b-navbar-brand href="/">Go Store</b-navbar-brand>
 
@@ -26,6 +27,7 @@
     </b-collapse>
   </b-navbar>
   </div>
+</div>
 </template>
 
 <script>

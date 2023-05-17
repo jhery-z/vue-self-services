@@ -1,0 +1,347 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Orange Dessert",
+      "harga": "26000",
+      "is_ready": "true",
+      "gambar": "orange-dessert.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Strawberry Dessert",
+      "harga": "32000",
+      "is_ready": "true",
+      "gambar": "strawberry-dessert.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Chocolate Dessert",
+      "harga": "35000",
+      "is_ready": "true",
+      "gambar": "cokelat-dessert.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Red Velvet Dessert",
+      "harga": "24000",
+      "is_ready": "true",
+      "gambar": "red-velvet-dessert.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Sate",
+      "harga": "30000",
+      "is_ready": "true",
+      "gambar": "sate.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Bakso",
+      "harga": "18000",
+      "is_ready": "true",
+      "gambar": "bakso.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Ayam Geprek",
+      "harga": "22000",
+      "is_ready": "true",
+      "gambar": "ayam-geprek.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Ikan Bakar Nila",
+      "harga": "25000",
+      "is_ready": "true",
+      "gambar": "ikan-bakar.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Rendang",
+      "harga": "25000",
+      "is_ready": "true",
+      "gambar": "rendang.jpg"
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "Aneka Gorengan",
+      "harga": "5000",
+      "is_ready": "true",
+      "gambar": "gorengan.jpg"
+    },
+    {
+      "id": 11,
+      "kode": "K-11",
+      "nama": "Aneka Sambal",
+      "harga": "12000",
+      "is_ready": "true",
+      "gambar": "sambal.jpg"
+    },
+    {
+      "id": 12,
+      "kode": "K-12",
+      "nama": "Rujak Segar",
+      "harga": "15000",
+      "is_ready": "true",
+      "gambar": "rujak.jpg"
+    },
+    {
+      "id": 13,
+      "kode": "K-13",
+      "nama": "Mie Goreng",
+      "harga": "16000",
+      "is_ready": "true",
+      "gambar": "mie-goreng.jpg"
+    },
+    {
+      "id": 14,
+      "kode": "K-14",
+      "nama": "Soto",
+      "harga": "18000",
+      "is_ready": "true",
+      "gambar": "soto.jpg"
+    },
+    {
+      "id": 15,
+      "kode": "K-15",
+      "nama": "Nasi Goreng",
+      "harga": "20000",
+      "is_ready": "true",
+      "gambar": "nasi-goreng.jpg"
+    },
+    {
+      "id": 16,
+      "kode": "K-16",
+      "nama": "Aneka Lalapan",
+      "harga": "3000",
+      "is_ready": "true",
+      "gambar": "sayur.jpg"
+    },
+    {
+      "id": 17,
+      "kode": "K-17",
+      "nama": "Air Mineral",
+      "harga": "7000",
+      "is_ready": "true",
+      "gambar": "aqua.jpg"
+    },
+    {
+      "id": 18,
+      "kode": "K-18",
+      "nama": "Teh Botol",
+      "harga": "7000",
+      "is_ready": "true",
+      "gambar": "teh-botol.jpg"
+    },
+    {
+      "id": 19,
+      "kode": "K-19",
+      "nama": "Jus Mangga",
+      "harga": "15000",
+      "is_ready": "true",
+      "gambar": "jus-mangga.jpg"
+    },
+    {
+      "id": 20,
+      "kode": "K-20",
+      "nama": "Jus Buah Naga",
+      "harga": "16000",
+      "is_ready": "true",
+      "gambar": "jus-buah-naga.jpg"
+    }
+  ],
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Mie Goreng",
+      "harga": "16000",
+      "is_ready": "true",
+      "gambar": "mie-goreng.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Soto",
+      "harga": "18000",
+      "is_ready": "true",
+      "gambar": "soto.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Orange Dessert",
+      "harga": "40000",
+      "is_ready": "true",
+      "gambar": "orange-dessert.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Nasi Goreng",
+      "harga": "20000",
+      "is_ready": "true",
+      "gambar": "nasi-goreng.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Sate",
+      "harga": "30000",
+      "is_ready": "true",
+      "gambar": "sate.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Bakso",
+      "harga": "18000",
+      "is_ready": "true",
+      "gambar": "bakso.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Ayam Geprek",
+      "harga": "15000",
+      "is_ready": "true",
+      "gambar": "ayam-geprek.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Ikan Bakar Nila",
+      "harga": "25000",
+      "is_ready": "true",
+      "gambar": "ikan-bakar.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Rendang",
+      "harga": "25000",
+      "is_ready": "true",
+      "gambar": "rendang.jpg"
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "Aneka Gorengan",
+      "harga": "5000",
+      "is_ready": "true",
+      "gambar": "gorengan.jpg"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "nama": "heri",
+      "noMeja": "3",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "2",
+          "keterangan": "jgsljafghsjdf",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Chees",
+            "harga": "2000",
+            "is_ready": "true",
+            "gambar": "logo.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": "3",
+          "keterangan": "pedas banget",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Biskuit",
+            "harga": "6000",
+            "is_ready": "true",
+            "gambar": "p1.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "heri",
+      "noMeja": "2",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "sdfdsfdg",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Chees",
+            "harga": "2000",
+            "is_ready": "true",
+            "gambar": "logo.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": "11",
+          "keterangan": "sgsgsd",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Wafer Tanggo",
+            "harga": "4000",
+            "is_ready": "true",
+            "gambar": "p2.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "jhery",
+      "noMeja": "20",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "2",
+          "keterangan": "jgjg",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Chees",
+            "harga": "2000",
+            "is_ready": "true",
+            "gambar": "logo.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": "1",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Wafer Tanggo",
+            "harga": "4000",
+            "is_ready": "true",
+            "gambar": "p2.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

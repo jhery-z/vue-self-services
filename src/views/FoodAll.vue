@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-6 mb-4" v-for="product in products" :key="product.id">
+        <div class="col mb-4" v-for="product in products" :key="product.id">
            <CardProduct :product="product"/>
         </div>
       </div>
