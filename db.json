@@ -342,6 +342,26 @@
         }
       ],
       "id": 3
+    },
+    {
+      "nama": "jhery",
+      "noMeja": "22",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "ga pake topping buah",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Chocolate Dessert",
+            "harga": "35000",
+            "is_ready": "true",
+            "gambar": "cokelat-dessert.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 4
     }
   ]
 }

@@ -4,7 +4,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col text-center">
-                    <h2>Mohon ditunggu untuk orderan anda akan segera diantar<br/><br/> Terima kasih. </h2>
+                    <h2>Mohon ditunggu untuk orderan anda akan segera diantar<br/><br/>
+                        {{ keranjang.products.nama }}<br/>
+                        {{ keranjang.keterangan ? keranjang.keterangan : "-" }}
+                        <br/><br/> Terima kasih. </h2>
                 </div>
             </div>
         </div>

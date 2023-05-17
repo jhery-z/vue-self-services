@@ -8,13 +8,13 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col">
+            <div class="col-lg-12 col-12">
                 <div class="input-group mb-3">
                     <input 
                     v-model="search"
                     type="text"
                     class="form-control"
-                    placeholder="Cari Barang Kesukaan Anda .."
+                    placeholder="Cari Barang .."
                     aria-label="cari"
                     ria-describedby="basic-addon1"
                     @keyup="searchFood"
@@ -28,9 +28,6 @@
             </div>
         </div>
 
-        <div class="col">
-          <router-link to="/about" class="btn btn-success float-right">Lihat Semua</router-link>
-        </div>
       </div>
       <div class="row">
         <div class="col mb-4" v-for="product in products" :key="product.id">
