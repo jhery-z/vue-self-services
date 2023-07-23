@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    2023 Copyrught | Developer Indie
+                    2023 Copyright | Developer
                 </div>
             </div>
         </div>
